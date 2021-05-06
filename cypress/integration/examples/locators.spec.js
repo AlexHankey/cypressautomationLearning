@@ -18,6 +18,5 @@ describe('Locating Elements', function(){
 
         cy.get(".product-unit-price").contains('$1,800.00')
 
-
     });
 })
