@@ -1,0 +1,5 @@
+{
+  "projectId": "opxabw",
+  "baseUrl": "http://localhost:5000",
+  "experimentalFetchPolyfill": true
+}

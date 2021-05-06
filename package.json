@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "Cypress tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open"
+  },
+
+  "author": "Alex Hankey",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.1.0"
+  }
+}
