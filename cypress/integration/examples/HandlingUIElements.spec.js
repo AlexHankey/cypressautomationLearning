@@ -37,6 +37,7 @@ describe('RegisterInterest_Test', function() {
 })
 describe('Register-Verification_Test', function() {
     it('Check-verified', function() {
-        cy.check('https://demo.nopcommerce.com/registerresult/1?returnUrl=/')
+        cy.visit('https://demo.nopcommerce.com/registerresult/1?returnUrl=/')
+        cy.contains()
     })
 })
