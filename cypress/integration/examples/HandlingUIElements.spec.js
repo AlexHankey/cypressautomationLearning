@@ -13,7 +13,7 @@ describe('RegisterInterest_Test', function() {
     });
     it('RegisterInterest-Dropdown', function() {
 
-        cy.get('body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div.page-body > form > div:nth-child(1) > div.form-fields > div.inputs.date-of-birth > div > select:nth-child(1)').select('1').should('have.value','1')
+        cy.get().select('1').should('have.value','1')
         cy.get('body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div.page-body > form > div:nth-child(1) > div.form-fields > div.inputs.date-of-birth > div > select:nth-child(2)').select('July').should('have.value', '7')
         cy.get('body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div.page-body > form > div:nth-child(1) > div.form-fields > div.inputs.date-of-birth > div > select:nth-child(3)').select('1998').should('have.value', '1998')
 
@@ -38,6 +38,5 @@ describe('RegisterInterest_Test', function() {
 describe('Register-Verification_Test', function() {
     it('Check-verified', function() {
         cy.visit('https://demo.nopcommerce.com/registerresult/1?returnUrl=/')
-        cy.contains()
     })
 })

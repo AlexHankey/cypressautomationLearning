@@ -1,5 +1,8 @@
 {
   "projectId": "opxabw",
   "baseUrl": "http://localhost:5000",
-  "experimentalFetchPolyfill": true
+  "experimentalFetchPolyfill": true,
+
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
 }
