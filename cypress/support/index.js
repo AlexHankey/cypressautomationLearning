@@ -16,5 +16,16 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+// // Alternatively you can use CommonJS syntax:
+// // require('./commands')
+
+
+// Cypress.on('uncaught:exception', (err, evt) => {
+//     // returning false here prevents Cypress from
+//     // failing the test
+//     if (err.message.indexOf('PK file not found: /var/www/html/storage/app/cloudfront.pem') > -1) {
+//         return false
+//     }
+
+//     return true;
+// })
