@@ -10,7 +10,7 @@
   "author": "Alex Hankey",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.3.0",
+    "cypress": "^7.4.0",
     "cypress-xpath": "^1.6.2"
   }
 }

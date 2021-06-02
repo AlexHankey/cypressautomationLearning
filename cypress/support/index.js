@@ -29,3 +29,7 @@ import './commands'
 
 //     return true;
 // })
+
+
+//Should allow XPATH in all cypress tests 
+require('cypress-xpath')
